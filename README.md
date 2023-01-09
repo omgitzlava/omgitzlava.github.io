@@ -3,6 +3,7 @@
 
 ## Skipulega
 1. Forsíða
+<<<<<<< HEAD
     * umfjöllun um Guild Wars 2
 1. The Guild Wars 2 World's Story
     1. Guild Wars 2: Personal Story
@@ -32,4 +33,5 @@
     1. End of Dragons
         * What was End of Dragons
         * Summary of End of Dragons
-1. 
+1. meira?
+
