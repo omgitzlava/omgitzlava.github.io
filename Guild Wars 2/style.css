@@ -1,5 +1,14 @@
-.header h1 {
-    color: rgb(209, 17, 17);
-    line-height: 1.2;
-    font-weight: normal;
-}
+body {
+    background-color: powderblue;
+    border:2px solid darkslategray; 
+    padding: 30px;
+    }
+    h1 {
+      color: blue;
+      background-color: darkslategray; 
+      text-align:center
+    }
+    p {
+    color: red;
+    text-align:center;
+    }
