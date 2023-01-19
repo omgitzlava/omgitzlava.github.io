@@ -11,6 +11,7 @@ body {
     p {
     color: rgb(0, 0, 0);
     text-align:center;
+    margin: 0 0 10px 0;
     }
 nav ul {
   list-style-type: none;
@@ -35,35 +36,6 @@ nav a {
   color: white;
 }
 
-/* Bottom left text */
-.bottom-left {
-  position: absolute;
-  bottom: 8px;
-  left: 16px;
-}
-
-/* Top left text */
-.top-left {
-position: absolute;
-  top: 8px;
-  left: 16px;
-}
-
-/* Top right text */
-.top-right {
-  position: absolute;
-  top: 8px;
-  right: 16px;
-}
-
-/* Bottom right text */
-.bottom-right {
-position: absolute;
-bottom: 8px;
-right: 16px;
-}
-
-/* Centered text */
 .lws2 {
   position: absolute;
   top: 90%;
@@ -74,7 +46,7 @@ right: 16px;
 }
 .lws1 {
   position: absolute;
-  top:55%;
+  top:5%;
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 60px;
@@ -90,5 +62,9 @@ right: 16px;
 }
 h2 {
   color: rgb(0, 0, 0);
-  text-align:left
+  text-align:center
+}
+h3 {
+  color: rgb(0, 0, 0);
+  text-align:center
 }
