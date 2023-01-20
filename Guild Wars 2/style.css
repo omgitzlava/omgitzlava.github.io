@@ -1,24 +1,28 @@
 body {
-    background-color: powderblue;
+    background-color: rgb(0, 0, 0);
     border:2px solid darkslategray; 
     padding: 30px;
+    
     }
     h1 {
-      color: rgb(0, 0, 0);
+      color: rgb(255, 255, 255);
       text-align:center
     }
     
     p {
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     text-align:center;
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
     margin: 0 0 10px 0;
+
+
     }
 nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color:#333;
+
 }
 nav li {
   float: left;
@@ -46,7 +50,7 @@ nav a {
 }
 .lws1 {
   position: absolute;
-  top:5%;
+  top:400px;
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 60px;
@@ -61,10 +65,17 @@ nav a {
     text-shadow: 1px 1px 2px black;
 }
 h2 {
-  color: rgb(0, 0, 0);
-  text-align:center
+  color: rgb(255, 255, 255);
+  text-align:center;
+  
 }
 h3 {
-  color: rgb(0, 0, 0);
-  text-align:center
+  color: rgb(255, 255, 255);
+  text-align:center;
+  
+}
+.text {
+  color:darkgray;
+
+
 }
