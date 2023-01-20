@@ -1,4 +1,6 @@
+
 body {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     background-color: rgb(0, 0, 0);
     border:2px solid darkslategray; 
     padding: 30px;
@@ -74,11 +76,6 @@ h3 {
   text-align:center;
   
 }
-.text {
-  color:darkgray;
-
-
-}
 .year {
   font-size:1.3em;
   color:cadetblue;
@@ -88,4 +85,25 @@ h3 {
   font-size:1.3em;
   color:white;
   text-align:center;
+}
+
+
+
+#toc_container {
+  background: #202020 none repeat scroll 0 0;
+  border: 1px solid rgb(70, 70, 70);
+  display: table;
+  font-size: 95%;
+  margin-bottom: 1em;
+  padding: 20px;
+  width: auto;
+}
+
+.toc_title {
+  font-weight: 700;
+  text-align: center;
+}
+
+#toc_container li, #toc_container ul, #toc_container ul li{
+  list-style: outside none none !important;
 }
