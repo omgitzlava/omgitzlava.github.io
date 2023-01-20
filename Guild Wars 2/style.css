@@ -79,3 +79,13 @@ h3 {
 
 
 }
+.year {
+  font-size:1.3em;
+  color:cadetblue;
+  text-align:center;
+}
+.chapter{
+  font-size:1.3em;
+  color:white;
+  text-align:center;
+}
