@@ -38,7 +38,8 @@ nav a {
 }
 .container {
   position: relative;
-  text-align: center;
+  display:flex;
+  flex-flow:row wrap;
   color: white;
 }
 
@@ -93,7 +94,7 @@ h3 {
   background: #202020 none repeat scroll 0 0;
   border: 1px solid rgb(70, 70, 70);
   display: table;
-  font-size: 95%;
+  font-size: 65%;
   margin-bottom: 1em;
   padding: 20px;
   width: auto;
@@ -106,4 +107,18 @@ h3 {
 
 #toc_container li, #toc_container ul, #toc_container ul li{
   list-style: outside none none !important;
+}
+#myBtn {
+  display:none;
+  position: fixed;
+  right: 2rem;
+  bottom: 2rem;
+  border-radius: 100%;
+  background: #233060;
+  padding: 0.5rem;
+  border: none;
+  cursor: pointer;
+}
+#myBtn:hover {
+  background-color: #555; /* Add a dark-grey background on hover */ 
 }
