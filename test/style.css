@@ -1,0 +1,15 @@
+    /* 0 - 37.5em */
+    .col-2, .col-3, .col-4 {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    @media screen and (min-width:37.5em){ 
+        .col-2, .col-4  {
+            /*dálkar sem er breytt miðað við 600px skjábreidd;*/
+        } 
+    }
+    @media screen and (min-width:48em){ 
+        .col-3, .col-4  {
+            /*dálkar sem er breytt miðað við 760px skjábreidd;*/
+        } 
+    }

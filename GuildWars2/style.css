@@ -1,0 +1,183 @@
+
+body {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(0, 0, 0);
+    border:2px solid darkslategray; 
+    padding: 30px;
+    background-image:url(/GuildWars2/images/bg-min.jpg)
+    }
+
+header { 
+  background-color:#555
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+nav li {
+  float: left;
+  
+}
+nav a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  
+}
+.container {
+  position: relative;
+  display:flex;
+  flex-flow:row wrap;
+  color: white;
+}
+
+.lws2 {
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 60px;
+  text-shadow: 1px 1px 2px black;
+}
+.lws1 {
+  position: absolute;
+  top:400px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 60px;
+  text-shadow: 1px 1px 2px black;
+}
+  .personals {
+    position: absolute;
+    top:60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 60px;
+    text-shadow: 1px 1px 2px black;
+}
+
+.year {
+  font-size:1.3em;
+  color:cadetblue;
+  text-align:center;
+  
+}
+.chapter{
+  font-size:1.3em;
+  color:white;
+  text-align:center;
+}
+
+
+
+#toc_container {
+  background: #202020 none repeat scroll 0 0;
+  border: 1px solid rgb(70, 70, 70);
+  display: table;
+  font-size: 100%;
+  margin-bottom: 1em;
+  padding: 0px;
+  width: auto;
+}
+
+.toc_title {
+  font-weight: 700;
+  text-align: center;
+}
+
+#toc_container li, #toc_container ul, #toc_container ul li{
+  list-style: outside none none !important;
+}
+#myBtn {
+  color:white;
+  display:none;
+  height:40px;
+  width:40px;
+  position: fixed;
+  right: 2rem;
+  bottom: 2rem;
+  border-radius: 100%;
+  background: #364a93;
+  padding: 0.5rem;
+  border: 3px solid #435cb4;
+  cursor: pointer;
+}
+#myBtn:hover {
+  background-color: #555; /* Add a dark-grey background on hover */ 
+}
+footer {
+  padding: 30px;
+  margin: 10px;
+
+
+}
+h1 {
+  color: rgb(255, 255, 255);
+  text-align:center
+}
+h2 {
+  color: rgb(255, 255, 255);
+  text-align:center;
+  margin-left:3em;
+  margin-right:3em;
+}
+
+h3 {
+  color: rgb(255, 255, 255);
+  text-align:center;
+  margin-left:3em;
+  margin-right:3em;
+}
+p {
+  color: rgb(255, 255, 255);
+  text-align:center;
+  text-shadow: 1px 1px 2px rgb(0, 0, 0);
+  margin: 0 0 10px 0;
+  margin-left:3em;
+  margin-right:3em;
+}
+
+.text {
+  background-color:rgb(37, 37, 37);
+  border:2px solid rgb(32, 32, 63);
+}
+.text p {
+  color: rgb(255, 255, 255);
+  text-align:center;
+  text-shadow: 1px 1px 2px rgb(0, 0, 0);
+  margin: 0 0 10px 0;
+  padding:2em;
+  display: grid;
+}
+.text h1 {
+color: white;
+text-align:center;
+}
+.text h2 {
+  color: rgb(255, 255, 255);
+  text-align:center;
+  margin-left:3em;
+}
+.text h3 {
+  color: rgb(255, 255, 255);
+  text-align:center;
+  margin-left:3em;
+
+}
+
+
+  @media screen and (max-width: 600px) {
+    .TOC {
+      position: relative;
+    }
+  }
+  @media screen and (min-width: 1200px) {
+    .TOC {
+      position: absolute;
+    }
+  }
