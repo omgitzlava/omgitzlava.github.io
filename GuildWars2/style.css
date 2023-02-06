@@ -189,7 +189,7 @@ text-align:center;
 }
 
 
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 12490px) {
     .TOC {
       position: relative;
       margin-left:2em;
@@ -198,7 +198,7 @@ text-align:center;
       padding:0px;
     }
   }
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 1250px) {
     .TOC {
       position: absolute;
     }
@@ -213,4 +213,27 @@ blockquote{
   text-align:left;
   border-left: 2px solid #fff;
   margin-bottom:-1em;
+  }
+
+  .header-nav {
+    display: grid;
+    grid-template-columns: repeat(9, auto);
+    
+  }
+  
+  .header-nav-item {
+    padding: 1rem;
+    text-align: center;
+  }
+  @media screen and (max-width: 850px) {
+    .header-nav {
+      grid-template-columns: repeat(3,auto);
+    }
+
+  }
+  .storycontinue{
+    padding:0px;
+    position:relative;
+    text-align:center;
+    background-color:rgb(35, 35, 35);
   }
