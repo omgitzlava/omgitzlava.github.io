@@ -104,6 +104,15 @@ nav a {
   padding: 10px;
   width: auto;
 }
+#TOC {
+  width:100%;
+  margin-right:auto;
+  color:white;
+  padding:25px;
+  font-size: 17px;
+  z-index:5;
+  
+}
 
 .toc_title {
   font-weight: 700;
@@ -158,11 +167,12 @@ p {
   margin: 0 1em;
 
 }
-/*
+
 .text {
   background-color:rgb(37, 37, 37);
   border:2px solid rgb(32, 32, 63);
 }
+/*
 .text p {
   color: rgb(196, 196, 196);
   text-align:left;

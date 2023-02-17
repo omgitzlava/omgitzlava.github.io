@@ -1,0 +1,77 @@
+
+/* efnisyfirlit */
+.topmenu {
+    display:flex;
+    flex-flow: column;
+    background-color: rgb(104, 104, 104);
+    padding: 0;
+    list-style-type:none;
+}
+/* nav topmenu tenglar */
+.topmenu a {
+    display: block;
+    color:rgb(255, 255, 255);
+    padding: .5em 2em;
+    text-align: center;
+}
+.topmenu a:visited {
+    color:rgb(218, 245, 254);
+}
+.topmenu a:hover,
+.topmenu a:active {
+    background-color: rgb(153, 214, 242);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    
+}
+/* GRID */
+.col-31,
+.col-3,
+.col-2 {
+    display: grid;
+    grid-template-columns: 1fr; 
+}
+
+/* viðmið - breakpoints bottom up*/
+
+@media screen and (min-width:48em){
+    .col-31{
+        grid-template-columns: 3fr 1fr; /*ath!*/
+    }
+    .col-3 {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .col-2 {
+        grid-template-columns: 1fr 1fr; 
+        gap:1em;
+    }
+    .topmenu {
+        display:flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+    }
+
+}
+
+@media screen and (min-width:60em){
+    .container {
+        max-width: 60em; /* 1024px skjár*/
+        margin:1em auto;
+    }
+}
+
+@media screen and (min-width:80em){
+    .container {
+        max-width: 80em; /* 1280px skjár*/
+        margin:1em auto; /* top + bottom - left + right = miðjusett */
+    }
+}
+
+@media screen and (min-width:100em){
+    .container {
+        max-width: 87em; 
+    }
+}
