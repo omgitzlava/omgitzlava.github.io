@@ -4,9 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
     <link rel="stylesheet" href="css/style.css"> 
-    <link rel="stylesheet" href="css/grid.css"> 
+    <link rel="stylesheet" href="css/grid.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    
+    
     <title>Guild Wars 2</title>
 </head>
 <nav>
@@ -23,75 +27,96 @@
 
     </ul>
 </nav>
-<body>
-    <div class="text" style="margin-left:auto;">
-        <h1> Check Living World Season 1 for W.I.P styling</h1>
-        
-        <center><img src="images/braham.png" alt="Snow" style=></center>
+<header class="container">
+    <body>
+        <div class="text" style="margin-left:0em;">
+            <h1> Check Living World Season 1 for W.I.P styling</h1>
+            <!--Stór forsíðumynd með gegnsæjum bakgrunni - Verkefni 5-->
+            <center><img src="images/braham.png" alt="Snow" style=></center>
 
-        <header>
-            <h1> Guild Wars 2 </h1>
-        </header>
-
-
-        <p> 
-            Guild wars 2 is a massively multiplayer online role-playing game (MMORPG) developed by ArenaNet and published by NCsoft. It is set in the fantasty world of Tyria, where the player takes on the role of a hero and battles against enemies, complete quests, and participates in large-scale events with other players. The game features a dynamic, story-driven world that changes based on player choices, and offers a wide variety of professions and playstyles to choose from.
-        </p>
-        <br><br><br>
-        <h2>Screenshots</h2>
-        <section class="col-3" container>
-            <figure>
-                <img src="images/Desktop_Screenshot_2019.02.03_-_00.48.44.36.png">
-                <figcaption>Lornar's pass</figcaption>
-            </figure>
-            <figure>
-                <img src="images/Desktop_Screenshot_2019.02.03_-_01.25.45.68.png">
-                <figcaption>Crystal Oasis</figcaption>
-            </figure>
-            <figure>
-                <img src="images/Desktop_Screenshot_2019.02.03_-_01.44.12.61.png">
-                <figcaption>Sandswept Isles</figcaption>
-            </figure>
-            <figure>
-                <img src="images/Desktop_Screenshot_2019.02.03_-_03.25.16.11.png">
-                <figcaption>Thunderhead Peaks</figcaption>
-            </figure>
-        </section>
-
-    </div>
-</body>
-<footer>
-    <a href="https://wiki.guildwars2.com" target="_blank"><strong>Wiki</strong></a> 
-</footer>
+            <header>
+                <h1> Guild Wars 2 </h1>
+            </header>
 
 
+            <p> 
+                Guild wars 2 is a massively multiplayer online role-playing game (MMORPG) developed by ArenaNet and published by NCsoft. It is set in the fantasty world of Tyria, where the player takes on the role of a hero and battles against enemies, complete quests, and participates in large-scale events with other players. The game features a dynamic, story-driven world that changes based on player choices, and offers a wide variety of professions and playstyles to choose from.
+            </p>
+            <br><br><br>
+            <h2>Screenshots</h2>
+            <section class="col-3" container>
+                <figure>
+                    <img src="images/Desktop_Screenshot_2019.02.03_-_00.48.44.36.png" style="width:37.5em">
+                    <figcaption>Lornar's pass</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/Desktop_Screenshot_2019.02.03_-_01.25.45.68.png">
+                    <figcaption>Crystal Oasis</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/Desktop_Screenshot_2019.02.03_-_01.44.12.61.png">
+                    <figcaption>Sandswept Isles</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/Desktop_Screenshot_2019.02.03_-_03.25.16.11.png">
+                    <figcaption>Thunderhead Peaks</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/Domain of Vabbi.png">
+                    <figcaption>Domain of Vabbi</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/Drizzlewood Coast.png">
+                    <figcaption>Drizzlewood Coast</figcaption>
+                </figure>
+            </section>
+
+            <h2>Content</h2>
+            <section class="col-31">
+                <div class="youtube">
+                    <iframe src="https://www.youtube.com/embed/iS54uJmPo3k?autoplay=0"></iframe>
+                </div>
+                <audio controls>
+                    <source src="audio/A World Without You.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+            </section>
+        </div>
+    </body>
+</header>
+
+    <footer>
+        <a href="https://wiki.guildwars2.com" target="_blank"><strong>Wiki</strong></a> 
+    </footer>
 
 
 
-<body>
-    <button onclick="topFunction()" id="myBtn" title="Go to top">↑</button> 
-    <script>
-        // Get the button:
-let mybutton = document.getElementById("myBtn");
 
-// When the user scrolls down 20px from the top of the document, show the button
-window.onscroll = function() {scrollFunction()};
 
-function scrollFunction() {
-  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-    mybutton.style.display = "block";
-  } else {
-    mybutton.style.display = "none";
-  }
-}
+    <body>
+        <button onclick="topFunction()" id="myBtn" title="Go to top">↑</button> 
+        <script>
+            // Get the button:
+    let mybutton = document.getElementById("myBtn");
 
-// When the user clicks on the button, scroll to the top of the document
-function topFunction() {
-  document.body.scrollTop = 0; // For Safari
-  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
-} 
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {scrollFunction()};
 
-    </script>
-</body>
+    function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+    } else {
+        mybutton.style.display = "none";
+    }
+    }
 
-</html>
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+    document.body.scrollTop = 0; // For Safari
+    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+    } 
+
+        </script>
+    </body>
+
+    </html>
