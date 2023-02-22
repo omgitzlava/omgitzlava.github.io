@@ -264,3 +264,8 @@ margin-bottom:-1em;
     margin-right:0em;
   }
 }
+figcaption {
+  text-align:center;
+  color:white;
+  background-color:rgb(35,35,35);
+}
