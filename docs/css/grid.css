@@ -40,8 +40,9 @@ img {
         grid-template-columns: 1fr;
     }
     iframe {
-        width:22em;
+        width:20em;
         height:12em;
+        margin:0;
     }
     .col-31{
         grid-template-columns: 3fr 1fr; /*ath!*/
@@ -53,8 +54,8 @@ img {
         grid-template-columns:1fr 1fr;
     }
     iframe {
-        width:22em;
-        height:12em;
+        width: 30em;
+        height:17em;
       }
 
 }
@@ -73,8 +74,8 @@ img {
         justify-content: space-around;
     }
     iframe {
-        width:32em;
-        height:18em;
+        width:40em;
+        height:22em;
       }
 
 }
@@ -84,10 +85,7 @@ img {
         max-width: 60em; /* 1024px skjár*/
         margin:1em auto;
     }
-    iframe {
-        width:48em;
-        height:27em;
-      }
+
 }
 
 @media screen and (min-width:80em){
@@ -95,10 +93,7 @@ img {
         max-width: 80em; /* 1280px skjár*/
         margin:1em auto; /* top + bottom - left + right = miðjusett */
     }
-    iframe {
-        width:64em;
-        height:36em;
-      }
+
 }
 
 @media screen and (min-width:100em){
