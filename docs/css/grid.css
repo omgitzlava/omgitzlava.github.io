@@ -90,14 +90,9 @@ img {
 
 @media screen and (min-width:80em){
     .container {
-        max-width: 80em; /* 1280px skjár*/
+
         margin:1em auto; /* top + bottom - left + right = miðjusett */
     }
 
 }
 
-@media screen and (min-width:100em){
-    .container {
-        max-width: 87em; 
-    }
-}
